@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.box{
+    max-width: 60%;
+    background-color: #c8d8e4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 65px;
+    color: #2b6777;
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #000;
+    
+
+}
+ .box .img{
+    display: block;
+    margin: auto;
+    
+} 
+.box img{
+max-width: 70%;
+margin: 25px 0;
+box-shadow: 20px 20px 20px 0px #0000002b ;
+border-radius: 30px;
+margin-left: 6rem;
+}
+.box h1{
+text-align: center;
+
+}
+.box h1 span{
+    background-color: #2b6777;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.box p{
+    text-align: justify;
+    line-height: 1.6;
+}
+.container{
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+.container .product{
+    background-color: #2b6777;
+    margin-right: 3rem;
+    width: 25%;
+    color: white;
+    margin: 3rem 1rem;
+    padding: 30px 20px ;
+    height: 27rem;
+    transition: all ease .7s;
+    box-shadow: 0 0 10ps 0px black;
+}
+.container .product:hover{
+    transform: translateY(20px);
+}
+.container .product img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+   
+}
+.container .product h1{
+    font-size: 25px;
+
+}
+.container .product h3{
+    margin: 1rem 0;
+    font-size: 25px;
+    font-weight: 800;
+    color:rgb(216, 205, 205) ;
+}
+.container .product button{
+    height: 2.5rem;
+    width: 8rem;
+    margin: 1rem 4rem;
+    text-align: center;
+    background-color:#c8d8e4 ;
+    border: none;
+    color: #2b6777;
+    font-weight: 600;
+    border-radius: 20px 20px;
+}
+.container .product p{
+    text-align: justify;
+    line-height: 1.5;
+}
